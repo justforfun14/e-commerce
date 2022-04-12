@@ -1,5 +1,5 @@
-import { Home } from "./pages/Home";
-import "./styles/App.scss";
+import { Home } from "../../Pages/Home";
+import "./App.scss";
 
 const App = (): React.FunctionComponentElement<Element> => {
   return <Home></Home>;

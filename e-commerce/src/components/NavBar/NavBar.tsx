@@ -1,11 +1,11 @@
-import "../styles/NavBar.scss";
+import "./NavBar.scss";
 
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 import { Badge } from "@mui/material";
 
-export const NavBar = () => {
+export const NavBar = (): JSX.Element => {
   return (
     <div className=" navigation navigation__wrapper">
       <div className="langSearch langSearch__wrapper">

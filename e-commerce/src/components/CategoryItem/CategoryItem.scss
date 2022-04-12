@@ -1,0 +1,50 @@
+.category-item__wrapper {
+  flex: 1;
+  margin: 3px;
+  height: 70vh;
+  position: relative;
+}
+
+.category-item__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  // &:hover {
+  //   filter: grayscale(1);
+  // }
+  // add animations
+}
+
+.category-item__info {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item-info__title {
+  color: white;
+  margin: 0 0 20px;
+}
+
+.item-info__button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(0.95);
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+}
