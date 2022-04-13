@@ -1,8 +1,8 @@
-import { Home } from "../../Pages/Home";
+import { ProductsList } from "../../Pages/ProductsList/ProductsList";
 import "./App.scss";
 
 const App = (): React.FunctionComponentElement<Element> => {
-  return <Home></Home>;
+  return <ProductsList />;
 };
 
 export default App;
