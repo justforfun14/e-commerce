@@ -5,7 +5,7 @@ export const popularProducts = [
   },
   {
     id: 2,
-    img: "http://assets.stickpng.com/images/5c4dd57c4f848b02250ff862.png",
+    img: "https://i.ibb.co/tJD3NWV/5c4dd57c4f848b02250ff862-1.png",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const popularProducts = [
   },
   {
     id: 7,
-    img: "http://assets.stickpng.com/images/5e90a069c7c8f9000434dd7d.png",
+    img: "https://i.ibb.co/KrFzZ1X/5e90a069c7c8f9000434dd7d.png",
   },
   {
     id: 8,
