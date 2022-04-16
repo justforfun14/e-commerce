@@ -1,12 +1,14 @@
-import { ProductsList } from "../../Pages/ProductsList/ProductsList";
-import { ProductItem } from "../../Pages/ProductItem/ProductItem";
-import { Register } from "../../Pages/Register/Register";
-import { Login } from "../../Pages/Login/Login";
-
+import { Cart } from "../../Pages/Cart/Cart";
+import { Categories } from "../Categories/Categories";
+import { Footer } from "../Footer/Footer";
 import "./App.scss";
 
 const App = (): JSX.Element => {
-  return <Login />;
+  return (
+    <>
+      <Footer />
+    </>
+  );
 };
 
 export default App;
