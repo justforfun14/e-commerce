@@ -1,7 +1,4 @@
 .navigation {
-}
-
-.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,6 +32,9 @@
   border: 1px solid grey;
   display: flex;
   align-items: center;
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 }
 
 .searchForm__wrapper {
@@ -50,9 +50,6 @@
   width: 100%;
 }
 
-.rightBar {
-}
-
 .rightBar__wrapper {
   display: flex;
   align-items: center;
@@ -62,4 +59,18 @@
 .login,
 .signin {
   margin-right: 25px;
+}
+
+.logo {
+  @media only screen and (max-width: 580px) {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+}
+
+.login {
+  @media only screen and (max-width: 580px) {
+    font-size: 14px;
+    margin: 0 10px;
+  }
 }

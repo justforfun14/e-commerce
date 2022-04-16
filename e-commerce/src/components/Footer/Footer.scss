@@ -1,8 +1,8 @@
 .footer__wrapper {
   display: flex;
   background-color: #eef8fc;
-  @media only screen and (max-width: 380px) {
-    flexdirection: column;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
   }
 }
 
@@ -35,7 +35,7 @@
 .footer__center {
   flex: 1;
   padding: 20px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 715px) {
     display: none;
   }
 }

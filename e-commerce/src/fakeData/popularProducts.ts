@@ -9,7 +9,7 @@ export const popularProducts = [
   },
   {
     id: 3,
-    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+    img: "http://assets.stickpng.com/images/5c322c82a97bc40295eb849f.png",
   },
   {
     id: 4,

@@ -27,6 +27,7 @@ export const Slider = (): JSX.Element => {
       <div className="leftArrow" onClick={() => onClick("left")}>
         <ArrowLeftOutlined />
       </div>
+
       <div
         className="slider__movable"
         style={{ transform: `translateX(calc(${-slideIndex * 100}vw)` }}
@@ -39,7 +40,7 @@ export const Slider = (): JSX.Element => {
               key={slide.id}
             >
               <div className="content__img">
-                <img className="img" src={slide.img} alt="Clothes" />
+                <img className="content__image" src={slide.img} alt="Clothes" />
               </div>
               <div className="content__info info">
                 <div className="info__title">{slide.title}</div>
