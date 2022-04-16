@@ -1,0 +1,64 @@
+.login-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__wrapper {
+  border-radius: 15px;
+  width: 25%;
+  max-width: 550px;
+  padding: 20px;
+  background-color: white;
+  @media only screen and (max-width: 1100px) {
+    width: 60%;
+  }
+}
+
+.login__title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form .login__input {
+  flex: 1;
+  min-width: 40%;
+  margin: 10px 0;
+}
+
+.login__button {
+  width: 40%;
+  max-width: 150px;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white !important;
+  cursor: pointer;
+  @media only screen and (max-width: 1100px) {
+    width: 60%;
+  }
+}
+
+.login__link {
+  margin-top: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
