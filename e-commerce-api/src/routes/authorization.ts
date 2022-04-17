@@ -70,7 +70,6 @@ authorizationRouter.post(
       );
 
       const { password, ...otherInfo } = currentUser._doc;
-
       res.status(200).json({ otherInfo, accesToken });
     } catch (err) {
       res.status(500).json(err);
